@@ -3,16 +3,16 @@ import SwiftUI
 struct CoolView: View {
     @State var endAmount: CGFloat = 0
     @State var isFilled = false
-    let ctColor1 = UIColor.fromHexString("#F88A36")
-    let ctColor2 = UIColor.fromHexString("#FD2020")
+    let ctColor1 = UIColor.fromHexString("#2aa4f4")
+    let ctColor2 = UIColor.fromHexString("#007ad9")
     @State private var scale: Double = 360
-    let pathBounds = UIBezierPath.calculateBounds(paths: [.swiftLogo])
+    let pathBounds = UIBezierPath.calculateBounds(paths: [.twLogo])
     var body: some View {
     ZStack{
-        ShapeView(bezier: .swiftLogo, pathBounds: pathBounds)
+        ShapeView(bezier: .twLogo, pathBounds: pathBounds)
         .trim(from:0, to:endAmount)
             .stroke(Color(ctColor1), lineWidth: 2)
-        ShapeView(bezier: .swiftLogo, pathBounds: pathBounds)
+        ShapeView(bezier: .twLogo, pathBounds: pathBounds)
             .fill(LinearGradient(gradient: Gradient(colors: [Color(ctColor1),Color(ctColor2)]), startPoint: .topLeading, endPoint: .bottomTrailing)).opacity(isFilled ? 1:0)
     }
     .frame(width: 300, height:300*pathBounds.height/pathBounds.width)
