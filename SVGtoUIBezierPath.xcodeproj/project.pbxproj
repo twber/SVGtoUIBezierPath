@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AB3CBADD24D6DDA40087600D /* swiftLogo.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB3CBADC24D6DDA40087600D /* swiftLogo.swift */; };
 		ABFD8D8A24D6010B0010B850 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABFD8D8924D6010B0010B850 /* AppDelegate.swift */; };
 		ABFD8D8C24D6010B0010B850 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABFD8D8B24D6010B0010B850 /* SceneDelegate.swift */; };
 		ABFD8D8E24D6010B0010B850 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABFD8D8D24D6010B0010B850 /* ContentView.swift */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AB3CBADC24D6DDA40087600D /* swiftLogo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = swiftLogo.swift; sourceTree = "<group>"; };
 		ABFD8D8624D6010B0010B850 /* SVGtoUIBezierPath.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SVGtoUIBezierPath.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABFD8D8924D6010B0010B850 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ABFD8D8B24D6010B0010B850 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -66,6 +68,7 @@
 				ABFD8DA124D6026E0010B850 /* ShapeView.swift */,
 				ABFD8D8B24D6010B0010B850 /* SceneDelegate.swift */,
 				ABFD8D8D24D6010B0010B850 /* ContentView.swift */,
+				AB3CBADC24D6DDA40087600D /* swiftLogo.swift */,
 				ABFD8D8F24D6010D0010B850 /* Assets.xcassets */,
 				ABFD8D9424D6010D0010B850 /* LaunchScreen.storyboard */,
 				ABFD8D9D24D6016D0010B850 /* UIBezierPath+Extension.swift */,
@@ -156,6 +159,7 @@
 			files = (
 				ABFD8DA224D6026E0010B850 /* ShapeView.swift in Sources */,
 				ABFD8D8A24D6010B0010B850 /* AppDelegate.swift in Sources */,
+				AB3CBADD24D6DDA40087600D /* swiftLogo.swift in Sources */,
 				ABFD8D8C24D6010B0010B850 /* SceneDelegate.swift in Sources */,
 				ABFD8DA024D6016D0010B850 /* UIColor+extension.swift in Sources */,
 				ABFD8D8E24D6010B0010B850 /* ContentView.swift in Sources */,
