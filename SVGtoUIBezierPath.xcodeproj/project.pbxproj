@@ -13,10 +13,13 @@
 		ABFD8D9024D6010D0010B850 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABFD8D8F24D6010D0010B850 /* Assets.xcassets */; };
 		ABFD8D9324D6010D0010B850 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABFD8D9224D6010D0010B850 /* Preview Assets.xcassets */; };
 		ABFD8D9624D6010D0010B850 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABFD8D9424D6010D0010B850 /* LaunchScreen.storyboard */; };
+		ABFD8D9F24D6016D0010B850 /* UIBezierPath+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABFD8D9D24D6016D0010B850 /* UIBezierPath+Extension.swift */; };
+		ABFD8DA024D6016D0010B850 /* UIColor+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABFD8D9E24D6016D0010B850 /* UIColor+extension.swift */; };
+		ABFD8DA224D6026E0010B850 /* ShapeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABFD8DA124D6026E0010B850 /* ShapeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		ABFD8D8624D6010B0010B850 /* SVG.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SVG.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABFD8D8624D6010B0010B850 /* SVGtoUIBezierPath.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SVGtoUIBezierPath.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABFD8D8924D6010B0010B850 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ABFD8D8B24D6010B0010B850 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		ABFD8D8D24D6010B0010B850 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -24,6 +27,9 @@
 		ABFD8D9224D6010D0010B850 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		ABFD8D9524D6010D0010B850 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ABFD8D9724D6010D0010B850 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABFD8D9D24D6016D0010B850 /* UIBezierPath+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIBezierPath+Extension.swift"; path = "../../../../OneDrive - edy/Xcode_project/Resources/UIBezierPath+Extension.swift"; sourceTree = "<group>"; };
+		ABFD8D9E24D6016D0010B850 /* UIColor+extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIColor+extension.swift"; path = "../../../../OneDrive - edy/Xcode_project/Resources/UIColor+extension.swift"; sourceTree = "<group>"; };
+		ABFD8DA124D6026E0010B850 /* ShapeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +54,7 @@
 		ABFD8D8724D6010B0010B850 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				ABFD8D8624D6010B0010B850 /* SVG.app */,
+				ABFD8D8624D6010B0010B850 /* SVGtoUIBezierPath.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -57,10 +63,13 @@
 			isa = PBXGroup;
 			children = (
 				ABFD8D8924D6010B0010B850 /* AppDelegate.swift */,
+				ABFD8DA124D6026E0010B850 /* ShapeView.swift */,
 				ABFD8D8B24D6010B0010B850 /* SceneDelegate.swift */,
 				ABFD8D8D24D6010B0010B850 /* ContentView.swift */,
 				ABFD8D8F24D6010D0010B850 /* Assets.xcassets */,
 				ABFD8D9424D6010D0010B850 /* LaunchScreen.storyboard */,
+				ABFD8D9D24D6016D0010B850 /* UIBezierPath+Extension.swift */,
+				ABFD8D9E24D6016D0010B850 /* UIColor+extension.swift */,
 				ABFD8D9724D6010D0010B850 /* Info.plist */,
 				ABFD8D9124D6010D0010B850 /* Preview Content */,
 			);
@@ -78,9 +87,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		ABFD8D8524D6010B0010B850 /* SVG */ = {
+		ABFD8D8524D6010B0010B850 /* SVGtoUIBezierPath */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = ABFD8D9A24D6010D0010B850 /* Build configuration list for PBXNativeTarget "SVG" */;
+			buildConfigurationList = ABFD8D9A24D6010D0010B850 /* Build configuration list for PBXNativeTarget "SVGtoUIBezierPath" */;
 			buildPhases = (
 				ABFD8D8224D6010B0010B850 /* Sources */,
 				ABFD8D8324D6010B0010B850 /* Frameworks */,
@@ -90,9 +99,9 @@
 			);
 			dependencies = (
 			);
-			name = SVG;
+			name = SVGtoUIBezierPath;
 			productName = SVG;
-			productReference = ABFD8D8624D6010B0010B850 /* SVG.app */;
+			productReference = ABFD8D8624D6010B0010B850 /* SVGtoUIBezierPath.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -109,7 +118,7 @@
 					};
 				};
 			};
-			buildConfigurationList = ABFD8D8124D6010B0010B850 /* Build configuration list for PBXProject "SVG" */;
+			buildConfigurationList = ABFD8D8124D6010B0010B850 /* Build configuration list for PBXProject "SVGtoUIBezierPath" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -122,7 +131,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				ABFD8D8524D6010B0010B850 /* SVG */,
+				ABFD8D8524D6010B0010B850 /* SVGtoUIBezierPath */,
 			);
 		};
 /* End PBXProject section */
@@ -145,9 +154,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABFD8DA224D6026E0010B850 /* ShapeView.swift in Sources */,
 				ABFD8D8A24D6010B0010B850 /* AppDelegate.swift in Sources */,
 				ABFD8D8C24D6010B0010B850 /* SceneDelegate.swift in Sources */,
+				ABFD8DA024D6016D0010B850 /* UIColor+extension.swift in Sources */,
 				ABFD8D8E24D6010B0010B850 /* ContentView.swift in Sources */,
+				ABFD8D9F24D6016D0010B850 /* UIBezierPath+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -326,7 +338,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		ABFD8D8124D6010B0010B850 /* Build configuration list for PBXProject "SVG" */ = {
+		ABFD8D8124D6010B0010B850 /* Build configuration list for PBXProject "SVGtoUIBezierPath" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				ABFD8D9824D6010D0010B850 /* Debug */,
@@ -335,7 +347,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		ABFD8D9A24D6010D0010B850 /* Build configuration list for PBXNativeTarget "SVG" */ = {
+		ABFD8D9A24D6010D0010B850 /* Build configuration list for PBXNativeTarget "SVGtoUIBezierPath" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				ABFD8D9B24D6010D0010B850 /* Debug */,
