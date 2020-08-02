@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		AB3CBADD24D6DDA40087600D /* swiftLogo.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB3CBADC24D6DDA40087600D /* swiftLogo.swift */; };
+		AB3CBADF24D6FB960087600D /* ctLogo.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB3CBADE24D6FB960087600D /* ctLogo.swift */; };
 		ABFD8D8A24D6010B0010B850 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABFD8D8924D6010B0010B850 /* AppDelegate.swift */; };
 		ABFD8D8C24D6010B0010B850 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABFD8D8B24D6010B0010B850 /* SceneDelegate.swift */; };
 		ABFD8D8E24D6010B0010B850 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABFD8D8D24D6010B0010B850 /* ContentView.swift */; };
@@ -21,6 +22,7 @@
 
 /* Begin PBXFileReference section */
 		AB3CBADC24D6DDA40087600D /* swiftLogo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = swiftLogo.swift; sourceTree = "<group>"; };
+		AB3CBADE24D6FB960087600D /* ctLogo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ctLogo.swift; sourceTree = "<group>"; };
 		ABFD8D8624D6010B0010B850 /* SVGtoUIBezierPath.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SVGtoUIBezierPath.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABFD8D8924D6010B0010B850 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ABFD8D8B24D6010B0010B850 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -68,6 +70,7 @@
 				ABFD8DA124D6026E0010B850 /* ShapeView.swift */,
 				ABFD8D8B24D6010B0010B850 /* SceneDelegate.swift */,
 				ABFD8D8D24D6010B0010B850 /* ContentView.swift */,
+				AB3CBADE24D6FB960087600D /* ctLogo.swift */,
 				AB3CBADC24D6DDA40087600D /* swiftLogo.swift */,
 				ABFD8D8F24D6010D0010B850 /* Assets.xcassets */,
 				ABFD8D9424D6010D0010B850 /* LaunchScreen.storyboard */,
@@ -164,6 +167,7 @@
 				ABFD8DA024D6016D0010B850 /* UIColor+extension.swift in Sources */,
 				ABFD8D8E24D6010B0010B850 /* ContentView.swift in Sources */,
 				ABFD8D9F24D6016D0010B850 /* UIBezierPath+Extension.swift in Sources */,
+				AB3CBADF24D6FB960087600D /* ctLogo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,6 +311,7 @@
 				DEVELOPMENT_TEAM = D32SCUNMH5;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = SVG/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -328,6 +333,7 @@
 				DEVELOPMENT_TEAM = D32SCUNMH5;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = SVG/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
